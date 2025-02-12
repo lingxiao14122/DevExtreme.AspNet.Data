@@ -1,5 +1,5 @@
 {
-  "name": "devextreme-aspnet-data",
+  "name": "devextreme-aspnet-data-frombody",
   "title": "DevExtreme.AspNet.Data",
   "version": "99.0.0",
   "description": "%meta_description%",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/DevExpress/DevExtreme.AspNet.Data.git"
+    "url": "https://github.com/lingxiao14122/DevExtreme.AspNet.Data.git"
   },
   "main": "js/dx.aspnet.data.js",
   "types": "js/dx.aspnet.data.d.ts",
