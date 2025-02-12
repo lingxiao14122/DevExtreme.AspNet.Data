@@ -247,10 +247,7 @@
                     {
                         url: updateUrl,
                         method: options.updateMethod || "PUT",
-                        data: {
-                            key: serializeKey(key),
-                            values: JSON.stringify(values)
-                        }
+                        data: JSON.stringify(values)
                     },
                     handleInsertUpdateSuccess
                 );
@@ -263,7 +260,7 @@
                     {
                         url: insertUrl,
                         method: options.insertMethod || "POST",
-                        data: { values: JSON.stringify(values) }
+                        data: JSON.stringify(values)
                     },
                     handleInsertUpdateSuccess
                 );
