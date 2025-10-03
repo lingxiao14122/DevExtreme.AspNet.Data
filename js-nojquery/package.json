@@ -1,0 +1,18 @@
+{
+  "name": "devextreme-aspnet-data-nojquery-frombody",
+  "title": "DevExtreme.AspNet.Data",
+  "version": "1.0.0",
+  "description": "%meta_description%",
+  "homepage": "%meta_project_url%",
+  "license": "MIT",
+  "author": {
+    "name": "%meta_company%"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lingxiao14122/DevExtreme.AspNet.Data.git"
+  },
+  "peerDependencies": {
+    "devextreme": ">=18.1.0"
+  }
+}
