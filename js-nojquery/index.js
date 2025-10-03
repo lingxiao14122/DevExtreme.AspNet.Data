@@ -264,7 +264,7 @@
                 return send("delete", true, {
                     url: deleteUrl,
                     method: options.deleteMethod || "DELETE",
-                    data: JSON.stringify(values)
+                    data: JSON.stringify({ key: key })
                 });
             }
 

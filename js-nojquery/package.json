@@ -1,7 +1,7 @@
 {
   "name": "devextreme-aspnet-data-nojquery-frombody",
   "title": "DevExtreme.AspNet.Data",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "%meta_description%",
   "homepage": "%meta_project_url%",
   "license": "MIT",
