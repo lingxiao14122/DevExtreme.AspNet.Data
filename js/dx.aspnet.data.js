@@ -270,7 +270,7 @@
                 return send("delete", true, {
                     url: deleteUrl,
                     method: options.deleteMethod || "DELETE",
-                    data: JSON.stringify(key)
+                    data: JSON.stringify({ key: key })
                 });
             }
 
